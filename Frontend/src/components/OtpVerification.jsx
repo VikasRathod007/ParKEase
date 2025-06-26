@@ -5,7 +5,7 @@ const OtpVerification = ({ maskedMobile, onVerify, onBack, onClose }) => {
     const [otp, setOtp] = useState('');
     const [formError, setFormError] = useState('');
 
-    const { loading, error, currentOtp, demoOtp, isDemo } = useTickets();
+    const { loading, error, demoOtp, isDemo } = useTickets();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
