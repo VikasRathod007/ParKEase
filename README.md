@@ -175,10 +175,6 @@ curl -X POST http://localhost:5000/api/otp/request \
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Support
-
-For support, email your-email@example.com or create an issue in this repository.
-
 ## 🙏 Acknowledgments
 
 - Twilio for SMS services
